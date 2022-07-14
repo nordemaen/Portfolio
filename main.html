@@ -74,7 +74,7 @@
                 </path>
             </svg>
         </section>
-        <section id="about">
+        <section id="about" class="d-none">
             <div class="container pt-5">
                 <div class="justify-content-center text-center">
                     <h1 class="p-4">About <b class="text-blue">Me</b></h1>
@@ -290,6 +290,22 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
         crossorigin="anonymous"></script>
+
+    <script>
+        window.addEventListener('scroll', () => {
+            let scrolled = window.scrollY;
+            let aboutSection = document.getElementById("about");
+
+            if (Math.round(scrolled) === 300 || 400) {
+                aboutSection.classList.remove("d-none");
+                aboutSection.classList.add("animate__animated");
+                aboutSection.classList.add("animate__fadeInRight")
+            }
+
+            console.log(Math.round(scrolled));
+
+        });
+    </script>
 </body>
 
 </html>
