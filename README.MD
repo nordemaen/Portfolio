@@ -1,8 +1,8 @@
-# Hello 🌊
+# مرحبا 🌊
 
-I am Cameron, a student at the Univerity of Portsmouth.
+أنا كاميرون ، طالب في جامعة بورتسموث.
 
-[^1]You can view my personal website at [Cameron Shearer](cameron-shearer.co.uk) with details about myself...
+يمكنك عرض موقع الويب الشخصي الخاص بي على [Cameron Shearer] (cameron-shearer.co.uk) مع تفاصيل عن نفسي ...
 
 
-[^1]: Website will undergo complete redesign during the following weeks.
+سيخضع موقع الويب لإعادة تصميم كاملة خلال الأسابيع التالية.
