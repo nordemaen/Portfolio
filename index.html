@@ -1,34 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZZ122P9BCB"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
-        gtag('js', new Date());
+    <title>cam.co.uk</title>
+    <style>
+        @import url(https://fonts.googleapis.com/css?family=Share+Tech+Mono);
 
-        gtag('config', 'G-ZZ122P9BCB');
+        body {
+            overflow: hidden;
+            background-color: black;
+            font-family: Share Tech Mono;
+        }
+
+        div { 
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        h1, p{
+            color: #fff;
+        }
+
+        img {
+            height: 35px;
+
+        }
+    </style>
+    <script>
+        let userAgent = navigator.userAgent;
+        alert(userAgent);
     </script>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Cameron Shearer's Portfolio">
-    <meta name="keywords"
-        content="Cameron Shearer, Cameron, Shearer, Cameron Shearer's Portfolio, Cameron Shearer Bridgwater">
-    <meta name="author" content="Cameron Shearer">
-    <link href="loader.css" rel="stylesheet">
-    <title>Cameron Shearer's Portfolio</title>
 </head>
-
 <body>
-    <span class="loader"><span class="loader-inner"></span></span>
-    <script>
-        setTimeout(function () {
-            window.location.href = "main.html"
-        }, 3500);
-    </script>
+    <div>
+        <h1>[🕺] rework in Progress [🕺]<br></h1>
+        <p>d0n't click random websites next time >:)</p>
+        <img src="digger.gif" alt="You're browser is rubbish!">
+    </div>
 </body>
-
 </html>
