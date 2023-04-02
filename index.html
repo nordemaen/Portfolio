@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <title>cam.co.uk</title>
     <style>
@@ -9,22 +10,29 @@
             overflow: hidden;
             background-color: black;
             font-family: Share Tech Mono;
+            animation: flash 2s infinite;
         }
 
-        div { 
+        div {
             display: flex;
             flex-direction: column;
             justify-content: center;
             align-items: center;
         }
 
-        h1, p{
+        h1,
+        p {
+            font-size: 2em;
             color: #fff;
         }
 
         img {
             height: 35px;
+        }
 
+        @keyframes flash {
+            0% {background-color: #000;}
+            50% {background-color: #fff;}
         }
     </style>
     <script>
@@ -32,11 +40,13 @@
         alert(userAgent);
     </script>
 </head>
+
 <body>
     <div>
         <h1>[🕺] rework in Progress [🕺]<br></h1>
-        <p>d0n't click random websites next time >:)</p>
-        <img src="digger.gif" alt="You're browser is rubbish!">
+        <p>d0n't click random websites next time >:)<br></p>
+        <img src="digger.gif" alt="Your browser is rubbish!">
     </div>
 </body>
+
 </html>
